@@ -1,0 +1,15 @@
+{
+  "name": "@khulnasoft/pages-plugin-khulnasoft-access",
+  "version": "1.0.3",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "tsconfig.json",
+    "api/"
+  ],
+  "scripts": {
+    "build": "npx wrangler pages functions build --plugin --outfile index.js"
+  }
+}

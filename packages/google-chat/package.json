@@ -1,0 +1,22 @@
+{
+  "name": "@khulnasoft/pages-plugin-google-chat",
+  "version": "1.0.2",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "tsconfig.json",
+    "api/"
+  ],
+  "scripts": {
+    "build": "npx wrangler pages functions build --plugin --outfile index.js"
+  },
+  "devDependencies": {
+    "@googleapis/chat": "^9.0.0",
+    "@types/jsrsasign": "^10.5.4"
+  },
+  "dependencies": {
+    "jsrsasign": "^10.6.1"
+  }
+}
