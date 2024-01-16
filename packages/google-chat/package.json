@@ -17,6 +17,6 @@
     "@types/jsrsasign": "^10.5.4"
   },
   "dependencies": {
-    "jsrsasign": "^10.6.1"
+    "jsrsasign": "^11.0.0"
   }
 }
